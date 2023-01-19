@@ -1,0 +1,38 @@
+h1 
+{
+    text-align: center;
+}
+
+#imageContainer 
+{
+    grid-template-rows: repeat(4, 25%);
+    grid-template-columns: repeat(4, 25%);
+    grid-gap: 1%;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    display: grid;
+}
+#imageContainer img 
+{
+    width: 100%; 
+    border: 1px solid black;
+    transition: 0.25s;
+}
+#imageContainer img:hover 
+{
+    cursor: pointer;
+    transform: scale(1.1);
+    border: 2px solid black;
+}
+#won 
+{
+  text-align: center;
+}
+#points
+{
+    text-align: center;
+}
+
+
+  
